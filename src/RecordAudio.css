@@ -1,0 +1,56 @@
+/* .record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* Add any other styles you want for the sound wave visualization */
+}
+
+
+.recording {
+  background-color: #ff0000;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Add any other styles you want for the buttons */
+}
+
+button:hover {
+  background-color: #e6006f;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.95);
+}
