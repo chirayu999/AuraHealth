@@ -22,7 +22,6 @@
   /* Add any other styles you want for the sound wave visualization */
 }
 
-
 .recording {
   background-color: #ff0000;
 }
@@ -52,5 +51,42 @@ button:focus {
 }
 
 button:active {
+  transform: scale(0.95);
+}
+
+/* CSS for the download div */
+.audio-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.audio-download audio {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.audio-download a {
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.audio-download a:hover {
+  background-color: #e6006f;
+}
+
+.audio-download a:focus {
+  outline: none;
+}
+
+.audio-download a:active {
   transform: scale(0.95);
 }
